@@ -19,6 +19,11 @@ header, footer {
 	max-width: 50em;
 	box-shadow: inset 0 -0.5px grey;
 	padding-bottom: 2em;
+	text-align: center;
+}
+
+li.social {
+	display: inline;
 }
 
 article {
