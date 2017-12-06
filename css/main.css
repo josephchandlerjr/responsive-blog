@@ -19,7 +19,6 @@ I've left some boilerplate below for you.
 	font-family: 'zocial', sans-serif;
 	text-shadow: 3px 3px 3px #aaa;
 	text-decoration: none;
-
 }
 
 html, body {
@@ -36,12 +35,20 @@ ul.social {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	text-align: center;
+	
 }
 
 li.social {
 	display: inline;
+	padding: 10px;
 }
+
+a.social {
+	display: inline;
+	text-decoration: inherit;
+	color: inherit;
+}
+
 
 article {
 	max-width: 50em; 	
