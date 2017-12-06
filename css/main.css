@@ -34,7 +34,8 @@ header, footer {
 ul.social {
 	list-style: none;
 	margin: 0;
-	padding: 0;
+	padding: 2em 0 2em 0;
+
 	
 }
 
@@ -48,6 +49,7 @@ a.social {
 	text-decoration: inherit;
 	color: inherit;
 }
+
 
 
 article {
@@ -66,5 +68,10 @@ h1, h2 {
 
 img {
 	max-width: 100%;
+
+}
+
+.page-source {
+	font-size: .75em;
 
 }
