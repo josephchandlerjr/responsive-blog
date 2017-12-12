@@ -25,11 +25,21 @@ module.exports = function(grunt) {
           },
 		  {
             width: 1000,
-			suffix: '_small_2x',
+			suffix: '_medium_2x',
             quality: 30
           },
 		  {
             width: 500,
+			suffix: '_medium_1x',
+            quality: 30
+          },
+		  {
+            width: 600,
+			suffix: '_small_2x',
+            quality: 30
+          },
+		  {
+            width: 300,
 			suffix: '_small_1x',
             quality: 30
           }
