@@ -67,11 +67,16 @@ article:last-of-type {
 	padding-bottom: 2em;
 }
 
-figure {
+picture {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: 100%;
+	margin: 0;
+}
+
+figure {
+	margin: 0;
 }
 
 
