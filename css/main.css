@@ -79,6 +79,10 @@ figure {
 	margin: 0;
 }
 
+figcaption {
+	text-align: center;
+}
+
 
 h1, h2 {
 	text-align: center;
