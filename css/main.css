@@ -27,6 +27,7 @@ html{
 
 body {
 	max-width: 50em;
+	margin: auto;
 }
 
 header, footer {
