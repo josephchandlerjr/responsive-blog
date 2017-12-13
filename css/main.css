@@ -21,9 +21,14 @@ I've left some boilerplate below for you.
 	text-decoration: none;
 }
 
-html, body {
+html{
 	width: 100%;
 }
+
+body {
+	max-width: 50em;
+}
+
 header, footer {
 	max-width: 50em;
 	box-shadow: inset 0 -0.5px grey;
@@ -61,6 +66,14 @@ article:last-of-type {
 	box-shadow: inset 0 -0.5px grey;
 	padding-bottom: 2em;
 }
+
+figure {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
 
 h1, h2 {
 	text-align: center;
